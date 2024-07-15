@@ -1,0 +1,8 @@
+[package]
+name = "get_started"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+lancedb = "0.7.0"
+tokio = { version = "1.38.0", features = ["rt-multi-thread"] }
