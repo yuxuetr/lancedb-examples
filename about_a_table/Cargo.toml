@@ -1,0 +1,11 @@
+[package]
+edition = "2021"
+name = "about_a_table"
+version = "0.1.0"
+license = "MIT"
+
+[dependencies]
+arrow-array = "51.0"
+arrow-schema = "51.0"
+lancedb = "0.7.0"
+tokio = {version = "1.38.0", features = ["rt-multi-thread"]}
